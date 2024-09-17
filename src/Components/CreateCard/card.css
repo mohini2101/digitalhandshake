@@ -1,0 +1,126 @@
+
+  
+  .container {
+    position: relative;
+    max-width: 1700px;
+padding: 0 !important;
+  }
+  #d1 {
+    /* width: 100% !important; */
+    height: auto;
+    padding: 10rem 25rem;
+    border-radius: 0 0 84px 84px;
+    background-color: #413D7B;
+   
+  }
+  
+  .box {
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: transparent;
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .top-image {
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px 8px 8px 8px;
+  }
+  
+  .top p:first-child {
+    margin-bottom: 0px;
+  }
+  
+  .top p {
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .top h1 {
+    text-align: center !important;
+    color: white;
+    margin: 0;
+  }
+  
+  .bottom {
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .bottom p {
+    width: 100%;
+    font-size: 18px;
+  }
+  
+ .button-create {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background: var(--Primary-Normal, #413D7B) !important;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+  }
+  
+  .button-skip {
+    width: 50px;
+    color: #413D7B;
+    background-color: white;
+    border: none;
+  }
+  
+  .bottom h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  
+  }
+  
+  .bottom p {
+    font-size: 18px;
+    color: black;
+  
+  }
+  
+  .bottom .third-p {
+    color: gray;
+  
+    font-size: 15px;
+  }
+  
+  button.button4 {
+    width: 350px;
+    padding: 15px;
+  }

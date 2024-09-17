@@ -1,0 +1,61 @@
+.validate-text{
+    color: $red-color;
+    font-size: $font_xs !important;
+    font-weight: $font_normal !important;
+    line-height: 18px !important;
+    font-family: $font_family_body !important;
+}
+
+// Customize text field 
+.input-form-field-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    .eye-btn{
+        padding: 0px;
+        min-width: 30px;
+    }
+    label{
+        color: $gary-label-color;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        display: inline-block;
+        font-family: $font_family_body;
+        .mendetory-star{
+            color: $red-color;
+        }
+    }
+    .forgot-passowrd-text{
+        text-align: right;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color:$gary-color;
+        font-family: $font_family_body;
+    }
+    .out-label-input-text{
+        margin-top: 0px;
+        font-family: $font_family_body;
+        .MuiInputBase-formControl{
+            // border-radius: 8px;
+            .MuiInputBase-input{
+                padding: 12px;
+            }
+            .MuiOutlinedInput-notchedOutline{
+                border-color: $gary-color;
+                border-width: 1px;
+                font-family: $font_family_body;
+            }
+            &.Mui-focused{
+                .MuiOutlinedInput-notchedOutline{
+                    border-color: $gary-color;
+                }
+            }
+            &:hover .MuiOutlinedInput-notchedOutline{
+                border-color: $gary-color;
+            }
+        }
+    }
+
+}

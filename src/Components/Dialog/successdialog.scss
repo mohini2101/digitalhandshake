@@ -1,0 +1,20 @@
+
+
+@import "../../assets/css/variable/variable";
+
+.MuiDialog-paper{
+    border-radius: 16px !important;
+    .success-dialog-body{
+        padding: 24px;
+        .alert-text{
+            font-size: $font_lg;
+            font-weight: $font_normal;
+            line-height: 27px;
+            font-family: $font_family_body;
+            color: $secondary-color;
+            text-align: center;
+        }
+    
+    }
+
+}

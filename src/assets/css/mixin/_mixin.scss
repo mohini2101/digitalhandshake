@@ -1,0 +1,8 @@
+@mixin custome-btn{
+    background-color: $primary-color;
+    color: $white-color;
+    border-radius: 30px;
+    padding: 8px 24px;
+    width: 100%;
+    font-family: $font_family_body;
+}

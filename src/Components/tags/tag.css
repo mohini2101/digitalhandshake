@@ -1,0 +1,180 @@
+.tag-name {
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 16px;
+    background: #FFF;
+    border: 2px solid rgba(0, 0, 0, 0.28);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.add-tags-h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.add-tags {
+    width: 100%;
+    border-bottom: 2px solid #00000061;
+}
+
+.tag-detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.add-tags-butn {
+
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 1px solid var(--Gray-gray-200, #A9A9A9);
+    background-color: #FFF;
+    text-align: center;
+
+}
+
+.add-tags-butnss {
+
+    padding: 8px 16px;
+
+
+    border-radius: 100px;
+    border: 1px solid var(--Primary-Normal, #413D7B);
+    background-color: #FFF;
+    text-align: center;
+
+}
+
+.tags-gap {
+    display: flex;
+    gap: 10px !important;
+}
+
+.span-btn {
+    color: var(--Primary-Normal, #413D7B);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.tag-detail>div {
+    width: 100px;
+    height: 60px;
+    flex: 1;
+
+}
+
+.frdbtn {
+    margin-top: 10px;
+    color: var(--Gray-gray-200, #A9A9A9);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.dealerbtn {
+    color: var(--Gray-gray-200, #A9A9A9);
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.Brokerbtn {
+    color: var(--Gray-gray-200, #A9A9A9);
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.Designerbtn {
+    color: var(--Gray-gray-200, #A9A9A9);
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+
+.second-row {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnn {
+    display: flex;
+    padding: 0px 76px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.tagsavebtn {
+    display: flex;
+    width: 100px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 7px;
+    border-radius: 100px;
+    background: var(--Primary-Normal, #413D7B);
+    border: 2px solid #413D7B;
+}
+
+.savebtn {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.tagcancelbtn {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #413D7B;
+    background-color: #FFF;
+}
+
+.cancelbtn {
+    color: var(--Primary-Normal, #413D7B);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}

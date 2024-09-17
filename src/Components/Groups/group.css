@@ -1,0 +1,189 @@
+.group-name {
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 16px;
+    background: #FFF;
+    border: 2px solid rgba(0, 0, 0, 0.28);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.group-events {
+    width: 100%;
+    border-bottom: 2px solid #00000061;
+}
+
+.add-group-h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.group-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+
+.second-rowss {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.group-tags-butn {
+
+    padding: 5px 15px !important;
+    border-radius: 100px !important;
+    border: 1px solid var(--Gray-gray-200, #A9A9A9) !important;
+    background-color: #FFF !important;
+    text-align: center !important;
+
+}
+
+.add-group-butnss {
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 1px solid var(--Primary-Normal, #413D7B);
+    background-color: #FFF;
+    text-align: center;
+
+}
+
+.group-gap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.span-btn {
+    color: var(--Primary-Normal, #413D7B);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+
+.groupbtn {
+    margin-top: 10px;
+    color: var(--Gray-gray-200, #A9A9A9);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+
+
+}
+
+.dealerbtn {
+    color: var(--Gray-gray-200, #A9A9A9);
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.Brokerbtn {
+    color: var(--Gray-gray-200, #A9A9A9);
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.Designerbtn {
+    color: var(--Gray-gray-200, #A9A9A9);
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+
+.second-group {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnnss {
+    display: flex;
+    padding: 0px 76px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.groupsavebtn {
+    display: flex;
+    width: 100px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 7px;
+    border-radius: 100px;
+    background: var(--Primary-Normal, #413D7B);
+    border: 2px solid #413D7B;
+}
+
+.groupssavebtn {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.groupcancelbtn {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #413D7B;
+    background-color: #FFF;
+}
+
+.groupsscancelbtn {
+    color: var(--Primary-Normal, #413D7B);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
