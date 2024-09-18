@@ -1,0 +1,196 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #dashboard-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .frame01 {
+    width: 170px;
+    padding: 24px, 22px, 24px, 22px;
+    gap: 8px;
+    background: #413d7b;
+  }
+  .frame02 {
+    width: 128px;
+    height: 46px;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  #vertical-menu {
+    width: 100px;
+  
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #vertical-menu li {
+    border-radius: 4px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    color: white;
+    width: 100px;;
+  }
+  
+  #vertical-menu li:hover {
+    background-color: #f29f05;
+  }
+  
+  .homebody{
+    background-color:#f29f05 ;
+  }
+  
+  .digital {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left:10px;
+  }
+  .handshake {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left:10px;
+    letter-spacing: 0em;
+   
+  }
+  .frame03 {
+    width: 100px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 25px;
+    gap: 24px;
+  }
+  .logoutbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #main-content1 {
+    width: 80%;
+    height: 100vh;
+    flex: 1;
+  
+  }
+  
+  .frame04 {
+    height: 70px;
+    left: 200px;
+    padding: 25px, 24px, 18px, 24px;
+    background: #F5F7FF;
+    border-radius: 5px;
+  }
+  .frame05 {
+    width: 100%;
+    height: 60px;
+    gap: 8px;
+   
+    display: flex;
+  }
+  .P_name {
+    width: 223px;
+    height: 42px;
+    padding-left:10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-container {
+    width:100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .img {
+    background: url("C:\Users\mohinipatel2003\OneDrive\Documents\GitHub\ReactjsProject\digitalhandshake\src\assets\img\profile_img.svg")
+    no-repeat ;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px;
+    margin-top: 10px;
+  }
+  
+  .icon-containers {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-icon {
+    color: #413d7b;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+    padding-right: 10px;
+  }
+  .notification-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+    color: #413d7b;
+    padding-left: 10px;
+  }
+  
+  .bgimg {
+    background-image: url("C:\Users\mohinipatel2003\OneDrive\Documents\GitHub\ReactjsProject\digitalhandshake\src\assets\img\carddashboard (1).png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  
+    height: 91vh;
+  
+  }
+  
+  .cardcontent {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .containercard {
+    display: grid;
+    place-items: center;
+    padding-top: 150px;
+    padding-left: 100px; 
+  }
+  .frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .picture {
+    height: 100%;
+  }
+  
+  .carbody {
+    background: relative;
+    background-image: url("C:\Users\mohinipatel2003\OneDrive\Documents\GitHub\ReactjsProject\digitalhandshake\src\assets\img\car.jfif");
+    background-size: cover;
+    border-radius: 10px;
+    width: 100px;
+    height: 95px;
+    margin-right: 100px;
+  }
+  
+  .cameraBody{
+  
+    margin-right: 80px;
+  }

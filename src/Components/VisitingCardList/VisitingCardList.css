@@ -1,0 +1,785 @@
+*{
+    font-family: Poppins;
+  }
+  .menubar {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    width: 200px;
+    height: 930px;
+    /* Use viewport height for full screen height */
+    padding: 24px 22px;
+    background: var(--Primary-Normal, #413d7b);
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    height: auto;
+    
+    /* border: 2px solid black; */
+    /* background-color: aqua; */
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    /* border: 2px solid black; */
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 19.899px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.742px;
+    /* 114.286% */
+    text-transform: uppercase;
+    align-items: flex-start;
+  }
+  
+  .navBtns {
+    display: flex;
+    width: 156px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    /* border: 2px solid black; */
+  }
+  
+  #homebutton {
+    border-radius: 8px;
+    background: var(--Orange, #F29F05);
+    align-items: end;
+  }
+  
+  .btn {
+    display: flex;
+  
+    align-items: end;
+    gap: 12px;
+    align-self: stretch;
+    color: var(--White, #fff);
+    text-align: center;
+  
+    /* Body/Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: auto;
+    /* 150% */
+  
+  
+    width: 156px;
+  height: 40px;
+  padding: 8px, 12px, 8px, 12px;
+  
+  
+  
+  }
+  
+  .logout {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    color: var(--White, #FFF);
+    text-align: center;
+  
+    /* Body/Regular */
+    /* font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 157%; */
+    /* 150% */
+  }
+  
+  .userNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 200px);
+    /* Adjust width based on menubar width */
+    padding: 18px 24px;
+    background: #a0b3ff;
+  }
+  
+  .contents {
+    /* background: #F29F05; */
+    /* padding-left: 245px; */
+    padding-bottom: 10px;
+    padding-top: 1px;
+  }
+  
+  .header {
+    display: block;
+  }
+  
+  .person {
+  
+    padding-bottom: 10px;
+    width: 279px;
+    height: 48px;
+    gap: 8px;
+    float: left;
+    margin-bottom: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    width: auto;
+    padding: 5px 24px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F7FF;
+    margin-bottom: 10px;
+  
+  }
+  
+  .profileimage {
+    float: left;
+    margin-right: 5px;
+    width: 48px;
+    height: 48px;
+    /* margin-top: 10px; */
+  }
+  
+  
+  .namedetail {
+    color: var(--Gray-gray-500, #454545);
+  
+    /* Label/Regular */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+  
+  }
+  
+  .persondetail {
+    color: var(--Gray-gray-500, #454545);
+  
+    /* Body/Medium */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+  
+  
+  }
+  
+  .filter {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .icons {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .notificationbar {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .visitingcard_search {
+    display: flex;
+  }
+  
+  .visitingcard_searchbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* Adjust the width as needed */
+    background: #ffffff;
+    border-radius: 100px;
+    padding: 14px 20px;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 100px;
+    border: 1px solid var(--Primary-Normal, #413D7B);
+  }
+  
+  #searchbar {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+  }
+  
+  #searchIcon {
+    width: 20px;
+    /* Adjust the size as needed */
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    /* Adjust the right position as needed */
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .filtericon {
+    padding-top: 7px;
+    margin-left: 20px;
+  
+  }
+  
+  
+  
+  .filterbutton {
+    border-style: none;
+    margin-top: 12px;
+    margin-left: 20px;
+    background: none;
+    margin-right: 20px;
+  }
+  
+  
+  
+  .visitingcard_data {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+   margin-top: 20px;
+  
+  }
+  
+  .visitingcard_card {
+    display: flex;
+    width: auto;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Primary-Light, #ECECF2);
+    background: #F6F6FF;
+    margin-left: 20px;
+  }
+  .visitingcard_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .cardimages {
+    gap: 15px;
+    display: flex;
+  
+    padding-left: 3px;
+    /* width: 157.686px;
+  height: 106px; */
+  width: 157.69px;
+  height: 106px;
+  border-radius: 3.5px;
+  
+  }
+  
+  .carddetail {
+    width: auto;
+    height: auto;
+    gap: 12px;
+    margin-right: 3px;
+    /* background-color: blueviolet; */
+  }
+  
+  .cardimage {
+    float: left;
+    /* width: 180px;
+    height: 121px; */
+    gap: 16px;
+    border-radius: 4px;
+  }
+  
+  .carddata {
+    /* float: right;
+    width: 182px;
+    height: 121px;
+    gap: 8px; */
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  margin-top: 10px;
+    flex: 1 0 0;
+    padding-left: 1px;
+   
+  }
+  
+  /* .name {
+    float: left;
+    color: var(--Primary-Normal, #413d7b);
+  
+    /* Lable-1/Medium */
+    /* font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; */
+    /* 150% */
+  /* } */ */
+  
+  .visitingcard_name {
+    flex: 1 0 0;
+    color: var(--Primary-Normal, #413D7B);
+  
+  /* Body-1/Medium */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 150% */
+  }
+  
+  
+  /* .infodata{
+    display: flex;
+    background: #044087;
+    width: -webkit-fill-available;
+  } */
+  .infodata {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  
+  /* .like {
+  
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .visitingcard_like {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  
+  
+  .nameinfo {
+  
+    margin-left: 50px;
+    color: #FFF;
+  
+    /* Caption/Regular */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 150% */
+  }
+  
+  
+  
+  .info {
+  
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  align-self: stretch;
+  }
+  
+  .emailconatct{
+  margin-top: 10px;
+  }
+  
+  .contactinfo {
+    width: 182px;
+  height: auto;
+    margin-top: 0px;
+    /* background-color: azure; */
+  }
+  
+  .contacts {
+    /* width: 182px;
+  height: 15px;
+  gap: 8px; */
+  
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .mobilelogo {
+    float: left;
+  
+   
+  }
+  
+  .mobilenumber {
+    color: var(--Gray-gray-500, #454545);
+  
+    /* Caption/Regular */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    
+    /* 150% */
+  }
+  
+  .visitingcard_email {
+    /* padding-top: 5px;
+  width: 182px;
+  height: 15px;
+  gap: 8px; */
+  
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .emaillogo {
+    float: left;
+  
+  
+  }
+  
+  .useremail {
+    color: var(--Gray-gray-500, #454545);
+  
+    /* Caption/Regular */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  
+    /* 1
+    50% */
+  }
+  
+  .position {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    color: var(--Gray-gray-200, #a9a9a9);
+  
+    /* Caption/Regular */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 5px;
+    /* 150% */
+  }
+  
+  .relation {
+    display: flex;
+    margin-top: 10px;
+    /* padding: 4px 16px; */
+    align-items: flex-start;
+    gap: 8px;
+    
+  }
+  
+  .realation_tag{
+    display: flex;
+    padding: 4px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--Secondary-Normal, #fce3cb);
+    color: var(--Gray-gray-300, #828282);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  
+  /* p {
+    display: flex;
+    padding: 4px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--Secondary-Normal, #fce3cb);
+    color: var(--Gray-gray-300, #828282);
+  
+    Caption/Regular
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    150%
+  } */
+  
+  .visitingcard_line {
+    margin-top: 5px;
+    width: 316px;
+    height: 1px;
+    background: #C5C5C5;
+  }
+  
+  
+  .camera {
+    display: flex;
+    float: right;
+    width: 72px;
+    height: 72px;
+    padding: 0px;
+    margin-top: 510px;
+    /* margin-right: 40px;
+    margin-bottom: 10px; */
+    margin-left: 1300px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 200px;
+    background: var(--Primary-Normal, #413D7B);
+  }
+  
+  
+  
+  /* popup filter */
+  .visitingcard_popup {
+    /* position: relative; */
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    background-color: #a9a9a961;
+    padding: 0px 0px 0px 600px;
+  
+  }
+  
+  .visitingcard_popupcontent {
+    margin-top: 60px;
+    margin-bottom: 75px;
+    display: flex;
+    width: 410px;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #fff;
+    /* background: #f4e177; */
+  }
+  
+  .filtername {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: flex-start;
+    align-self: stretch;
+    color: var(--Gray-gray-500, #454545);
+  
+    /* Lable-1/Ragular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+  }
+  
+  
+  .popupline {
+    width: 360px;
+    height: 1px;
+    background: #C5C5C5;
+    margin-top: 5px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    gap: 16px 12px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  
+    margin-bottom: 10px;
+  }
+  
+  .menuitem {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+  
+  .filterselected {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: var(--Secondary-Normal, #FCE3CB);
+    color: var(--Gray-gray-500, #454545);
+  
+    /* Caption/Regular */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 150% */
+  }
+  
+  .filters {
+    color: var(--Gray-gray-200, #a9a9a9);
+  
+    /* Caption/Regular */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 150% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid var(--Gray-gray-200, #a9a9a9);
+    background: #fff;
+    cursor: default;
+  }
+  
+  .filterdate {
+    color: var(--Gray-gray-200, #a9a9a9);
+  
+    /* Caption/Regular */
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 150% */
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid var(--Gray-gray-200, #a9a9a9);
+    background: #fff;
+  }
+  
+  
+  .daterange {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .visitingcard_datename {
+    color: var(--Secondary-Normal, #044087);
+  
+    /* Button/Regular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+  }
+  
+  .action {
+    display: flex;
+    padding: 0px 98px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    gap: 20px;
+    align-self: stretch;
+    margin-top: 20px;
+    /* background: #8ebf42; */
+  }
+  
+  .apply {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border-radius: 100px;
+    background: var(--Primary-Normal, #413D7B);
+    border: none;
+  }
+  
+  .actionapply {
+    color: var(--White, #FFF);
+  
+    /* Label/Regular */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+  }
+  
+  .cancel {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #413d7b;
+  }
+  
+  .actioncancel {
+    color: var(--Primary-Normal, #413D7B);
+  
+    /* Label/Regular */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+  }

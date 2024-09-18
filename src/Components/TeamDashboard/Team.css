@@ -1,0 +1,265 @@
+* {
+    font-family: Poppins;
+}
+
+.sidebar {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    width: 200px;
+    height: 100vh;
+    padding: 24px 22px;
+    background: var(--Primary-Normal, #413d7b);
+}
+
+.sidebar a {
+    text-decoration: none !important;
+}
+
+.btn:hover {
+    background-color: #F29F05;
+    border-radius: 8px;
+
+
+}
+
+.active {
+    background-color: #F29F05;
+    border-radius: 8px;
+}
+
+
+
+.sidemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 19.899px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.742px;
+    text-transform: uppercase;
+    align-items: flex-start;
+}
+
+.sideBtns {
+    display: flex;
+    width: 156px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+#homebutton {
+    border-radius: 8px;
+    align-items: end;
+}
+
+.btn {
+    display: flex;
+
+
+    align-items: flex-end;
+
+    gap: 12px;
+    align-self: stretch;
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: auto;
+    width: 156px;
+    height: 40px;
+    padding: 8px, 12px, 8px, 12px;
+    text-decoration: none !important;
+
+}
+
+.btn :hover {
+    background: var(--Orange, #F29F05);
+}
+
+
+.containerteam {
+    position: relative;
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    height: 100%;
+    left: 0px;
+    background: #ffffff;
+    z-index: 0;
+}
+
+/* navbar css */
+
+.containerteamnavbar {
+    width: calc(100% - 0px);
+    height: 70px;
+    background: rgba(245, 247, 255, 1);
+}
+
+.containervector {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    color: rgba(65, 61, 123, 1);
+}
+
+.containervector button {
+    margin-left: 18px;
+    font-size: 19px;
+}
+
+.teamdashboard_teamprofiletext {
+    width: 300px;
+    height: 50px;
+}
+
+.teamheaderprofile {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.headerimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: url("../../assets/img/profile_img.svg");
+
+}
+
+.profile-name {
+    color: rgba(69, 69, 69, 1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-status {
+    color: rgba(69, 69, 69, 0.7);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.teammiddle {
+    padding-left: 220px;
+    height: 650px;
+    gap: 32px;
+    color: rgba(65, 61, 123, 1);
+    padding-top: 20px;
+    width: calc(100% - 30px);
+}
+
+/* Team.css */
+
+.teamsearch {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.teamsearch input[type="text"] {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    width: 1335px;
+}
+
+.teamsearch input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.teamdashboard_search-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 30px;
+}
+
+.teammiddle2 {
+    width: 350px;
+    height: 378px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 35%;
+}
+
+.teamimage {
+    width: 350px;
+    height: 226px;
+}
+
+.teamText {
+    width: 350px;
+    height: 140px;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #454545;
+    font-weight: 500;
+}
+
+h6{
+    color: #A9A9A9;
+    font-weight: 200;
+
+}
+
+.teamText button{
+    background-color: #ECECF2;
+    border: 1px solid #413D7B;
+    color: #413D7B;
+    border-radius: 15px;
+    font-size: small;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.light-black-background {
+    background-color: rgba(0, 0, 0, 0.1);
+}

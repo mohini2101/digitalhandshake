@@ -1,0 +1,351 @@
+
+/* ----Account.html css---- */
+
+* {
+    font-family: Poppins;
+}
+
+.sidebar {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    width: 200px;
+    height: 100vh;
+    padding: 24px 22px;
+    background: var(--Primary-Normal, #413d7b);
+}
+
+.sidebar a {
+    text-decoration: none !important;
+}
+
+.btn:hover {
+    background-color: #F29F05;
+    border-radius: 8px;
+}
+
+.active {
+    background-color: #F29F05;
+    border-radius: 8px;
+}
+
+
+
+.sidemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 19.899px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.742px;
+    text-transform: uppercase;
+    align-items: flex-start;
+}
+
+.sideBtns {
+    display: flex;
+    width: 156px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+#homebutton {
+    border-radius: 8px;
+    align-items: end;
+}
+
+.btn {
+    display: flex;
+
+    align-items: flex-end;
+
+    gap: 12px;
+    align-self: stretch;
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: auto;
+    width: 156px;
+    height: 40px;
+    padding: 8px, 12px, 8px, 12px;
+    text-decoration: none !important;
+
+}
+
+.btn :hover {
+    background: var(--Orange, #F29F05);
+}
+
+/* main page css */
+
+.containeraccount {
+    position: relative;
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    height: 100%;
+    left: 0px;
+    background: #ffffff;
+    z-index: 0;
+}
+
+/* navbar css */
+
+.containernavbar {
+    width: calc(100% - 0px);
+    height: 70px;
+    background: rgba(245, 247, 255, 1);
+}
+
+.containervector1 {
+    position: absolute;
+    top: 5%;
+    right: 50px;
+    transform: translateY(-50%);
+    color: rgba(65, 61, 123, 1);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.containervector button {
+    margin-left: 18px;
+    font-size: 19px;
+}
+
+.profiletext {
+    width: 223px;
+    height: 40px;
+}
+
+.headerprofile {
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.headerimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: url("../../assets/img/profile_img.svg");
+
+}
+
+.profile-name {
+    color: rgba(69, 69, 69, 1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-status {
+    color: rgba(69, 69, 69, 0.7);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* middle css */
+
+.middle {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 600px;
+    top: 140px;
+    left: 16px;
+    gap: 32px;
+    color: rgba(65, 61, 123, 1);
+    padding-top: 10px;
+    width: calc(100% - 30px);
+}
+
+.middle1profile {
+    background: rgba(236, 236, 236, 1);
+    padding: 3px 3px 3px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.edit-icon {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.input-field-email {
+    width: auto;
+    padding: 6px 3px 3px 6px;
+    height: 30px;
+    position: absolute;
+    margin-right: 45px;
+    right: 0px;
+    top: 138px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: right;
+    color: rgba(130, 130, 130, 1);
+
+}
+
+.input-field-pass {
+    position: absolute;
+    padding: 6px 3px 3px 6px;
+    margin-left: 15px;
+    margin-right: 45px;
+    right: 0px;
+    top: 176px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    text-align: right;
+    color: rgba(130, 130, 130, 1);
+
+}
+
+p {
+    height: 30px;
+    padding: 6px 3px 3px 6px;
+
+}
+
+.change-pass {
+    position: absolute;
+    margin-left: 15px;
+    margin-right: 45px;
+    right: 0px;
+    top: 207px;
+    cursor: pointer;
+}
+
+.exports {
+    background: rgba(236, 236, 236, 1);
+    padding: 3px 3px 3px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.option {
+    color: black;
+}
+
+.middle1 {
+    height: 142px;
+    left: 16px;
+    gap: 32px;
+    color: rgba(65, 61, 123, 1);
+    padding-top: 10px;
+    width: calc(100% - 30px);
+}
+
+.middle2 {
+    height: 170px;
+    left: 16px;
+    gap: 32px;
+    padding-top: 25px;
+    width: calc(100% - 30px);
+}
+
+.middle3 {
+    height: 20px;
+    left: 16px;
+    gap: 32px;
+    color: rgba(65, 61, 123, 1);
+    padding-top: 30px;
+    width: calc(100% - 30px);
+}
+
+.middle4 {
+    height: 20px;
+    top: 140px;
+    left: 16px;
+    gap: 32px;
+    color: rgba(65, 61, 123, 1);
+    padding-top: 50px;
+    width: calc(100% - 30px);
+}
+
+.middle5 {
+    height: 20px;
+    top: 140px;
+    left: 16px;
+    gap: 32px;
+    color: rgba(65, 61, 123, 1);
+    padding-top: 50px;
+    width: calc(100% - 30px);
+}
+
+.CS {
+    background: rgba(236, 236, 236, 1);
+    padding: 3px 3px 3px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.faq {
+    background: rgba(236, 236, 236, 1);
+    padding: 3px 3px 3px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.TC {
+    background: rgba(236, 236, 236, 1);
+    padding: 3px 3px 3px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Modal CSS */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.light-black-background {
+    background-color: rgba(0, 0, 0, 0.1);
+}

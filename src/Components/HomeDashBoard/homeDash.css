@@ -1,0 +1,270 @@
+body {
+    font-family: "Arial", sans-serif;
+  }
+  #dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  .frame01 {
+    width: 170px;
+    height: 100%;
+    padding: 24px, 22px, 24px, 22px;
+    gap: 8px;
+    background: #413d7b;
+  }
+  .frame02 {
+    width: 128px;
+    height: 46px;
+    color: white;
+    margin-top: 15px;
+  }
+  #vertical-menu {
+    width: 100px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #vertical-menu li {
+    width:100px;
+    border-radius: 4px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    color: white;
+  }
+  
+  #vertical-menu li:hover {
+    background-color: #f29f05;
+  }
+  .homebody{
+    background-color:#f29f05 ;
+  }
+  
+  #sidebar {
+    width: 250px;
+    background-color: #413d7b;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .digital {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23px;
+  
+    text-align: center;
+  }
+  .handshake {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .frame03 {
+    width: 100px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 25px;
+    gap: 24px;
+  }
+  .logoutbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    padding: 10px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #main-content {
+    width: 80%;
+    flex: 1;
+  }
+  
+  .frame04 {
+
+    width:100%;
+      left: 200px;
+      padding: 25px, 24px, 18px, 24px;
+      background:#F5F7FF;
+      border-radius: 5px;
+    }
+    .frame05 {
+      
+      display: flex;
+    }
+    .P_name {
+      width: 223px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;;
+    }
+    
+    .profile-container {
+      width:100%;
+      display: flex;
+      align-items: center;
+    }
+    
+    .imguser{
+      background: url("C:\Users\mohinipatel2003\OneDrive\Documents\GitHub\ReactjsProject\digitalhandshake\src\assets\img\profile_img.svg")
+        no-repeat ;
+        background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px;
+      margin-top: 10px;
+      margin-left:10px;
+    }
+    .iconcontainer {
+      display: flex;
+      align-items: center;
+      
+    }
+    .card-icon {
+      color: #413d7b;
+      cursor: pointer;
+      font-size: 1.5rem;
+      position: relative;
+      padding-right: 10px;
+    }
+    .notification-icon {
+      cursor: pointer;
+      font-size: 1.5rem;
+      position: relative;
+      color: #413d7b;
+      padding-left: 20px;
+    }
+    
+  .frame06 {
+    width: Fixed (1, 240px);
+    height: Fixed (939px);
+    top: 85px;
+    left: 200px;
+    padding: 20px;
+    gap: 24px;
+  }
+  .frame07 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  .frame08 {
+
+    width:100%;
+    /* width: 100%;
+    height: Fixed (48px);
+    padding: 14px, 24px, 14px, 24px;
+    border-radius: 100px;
+    border: 1px;
+    justify: space-between;
+    border: 1px solid #413d7b;
+    display: flex;
+    align-items: center; */
+
+  }
+  .search-container{
+
+    display: flex; 
+    align-items: center; 
+
+  }
+  
+  .frame08 input{
+
+    border-radius:100px;
+  }
+  .searchcard {
+
+    width:100%;
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+
+  }
+  
+  .searchicon {
+
+    cursor: pointer; 
+    margin-left: 8px;
+
+  }
+  .frame09 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .cardgif {
+
+    background: url("C:\Users\mohinipatel2003\OneDrive\Documents\GitHub\ReactjsProject\digitalhandshake\src\assets\img\cbea3414e48115b7173ba425690db277.gif")
+      no-repeat;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+
+  }
+
+  .contentCard {
+
+
+    width: 356px;
+    height: 100px;
+    gap: 4px;
+
+  }
+  
+  .addedcard {
+
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #454545;
+
+  }
+  .addedDetail {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #a9a9a9;
+
+  }
+  .scan {
+
+    border-radius: 200px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    bottom: 1px;
+    right: 10px;
+    background: #413d7b;
+  }
+  
+  .cameraicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  

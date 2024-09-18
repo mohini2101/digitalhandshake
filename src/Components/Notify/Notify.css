@@ -1,0 +1,204 @@
+body {
+    font-family: "Arial", sans-serif;
+  }
+  
+  #dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .frame01 {
+    width: 170px;
+    height: 100%;
+    padding: 24px, 22px, 24px, 22px;
+    gap: 8px;
+    background: #413d7b;
+  }
+  .frame02 {
+    width: 128px;
+    height: 46px;
+    color: white;
+    margin-top: 15px;
+  }
+  .digital {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23px;
+    text-align: center;
+  }
+  .handshake {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .frame03 {
+    width: 100px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 25px;
+    gap: 24px;
+  }
+  #vertical-menu {
+    width: 100px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #vertical-menu li {
+    width:100px;
+    border-radius: 4px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    color: white;
+  }
+  
+  #vertical-menu li:hover {
+    background-color: #f29f05;
+  }
+
+  .setting{
+    background-color:#f29f05;
+  }
+  .logoutbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    padding: 10px;
+  }
+  #main-content {
+    flex: 1;
+      width: 80%;
+      flex: 1;
+  
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .member-content{
+    border-radius: 4px;
+    gap: 8px;
+    background: #ececf2;
+    padding-top:15px
+  }
+  
+  .frame04 {
+
+      width:100%;
+      left: 200px;
+      padding: 25px, 24px, 18px, 24px;
+      background:#F5F7FF;
+      border-radius: 5px;
+    }
+    .frame05 {
+      
+      display: flex;
+    }
+  .P_name {
+    width: 223px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding-left:10px
+  }
+  
+  .profile-container {
+    width:90%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imguser1{
+    background: url("C:\Users\mohinipatel2003\OneDrive\Documents\GitHub\ReactjsProject\digitalhandshake\src\assets\img\profile_img.svg")
+      no-repeat ;
+      background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px;
+    margin-top: 10px;
+    margin-left:10px;
+  }
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  .card-icon {
+    color: #413d7b;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+    padding-right: 10px;
+  }
+  .notification-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+    color: #413d7b;
+    padding-left: 10px;
+  }
+  
+  .member-body{
+    padding: 20px;
+  }
+ 
+  .member-added {
+    width: 1095px;
+    height: 27px;
+    color: #413d7b;
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .uname {
+    width: 1092px;
+    height: 21px;
+    padding-top: 2px;
+    padding-left: 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+  }
+  .utime {
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    padding-right: 10px;
+  
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  .notification-icon:hover {
+    color: rgb(184, 179, 179);
+  }
+  .notification-badge {
+    position: absolute;
+    top: 4%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: rgb(241, 9, 9);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  
+  
+  
